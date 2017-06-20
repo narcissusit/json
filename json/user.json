@@ -1,0 +1,35 @@
+[
+	{
+		"name": "Alex",
+		"surname": "Smith",
+		"age": 32,
+		"country": "Germany",
+		"image": "images/alex.png",
+        "articles": [
+            {"title": "A CITY IN THE SKY", "body": "All the years one will experience, there are rare moments where our creativity and imagination can reach its peak. Where theories can become discoveries, or when one can turn something black and white into beautiful colors. We all come across a certain idea or goal to keep us moving forward.", "pages":8},
+            {"title": "PORTER’S FIVE FORCES ANALYSIS", "body": "Porter’s Five Forces Analysis Michael Porter provided a framework that analyses an industry as being influenced by five forces. It has been suggested that management, attempting to establish a competitive marketing advantage over rivals, can use this model to understand the industry context in which the business operates and take appropriate strategic decisions.", "pages": 7},
+            {"title": "HISTORY REVISION", "body": "History- What historians chose to interpret from the surviving evidence of the past Source + Historians = Histories All historians have their own views and interests due to their upbringing hence that the process of selection and interpretation distorts our ‘knowledge’ further. Issues in historiography Training of historians Objectivity in history Oral societies and history", "pages": 3}
+        ]
+	},
+	{
+		"name": "Danny",
+		"surname": "Jonson",
+		"age": 35,
+		"country": "France",
+		"image": "images/danny.png",
+		"articles": [
+            {"title": "MINER RESUME", "body": "Objective To gain employment and work along side industry professionals, to further my experience and knowledge within the mining industry. I am a willing candidate who has the ability to adapt and respond to new challenges, in a safe and professional manner. Employment Coal Mine Worker Mastermyne April 2013 – Current Installation of underground secondary.", "pages":5},
+            {"title": "DIJKSTRA’S ALGORITHM", "body": "1) Write short notes on: a) Pains of Partition b) Family bonding and disintegration Ans. a) India was a colony for over 200 years and this struggle for independence is deeply rooted in the Indian psyche. More than this, another momentous event of partition is taken up by the authors.", "pages": 2}
+        ]
+	},
+	{
+		"name": "Alice",
+		"surname": "Gammilton",
+		"age": 27,
+		"country": "Ukraine",
+		"image": "images/alice.png",
+		"articles": [
+            {"title": "MINOR CAPACITY JUDGEMENT", "body": "Mohori Bibee and another Vs. Dharmodas Ghose Mohori Bibee and another Vs.Dharmodas Ghose Options Dock Print PDF Court : Kolkata Reported in : (1903)30IndianAppeals114 Judge : Lord Macnaghten; Lord Davey; Lord Lindley; Sir Ford North; Sir Andrew Scoble; Sir Andrew Wilson","pages": 1}
+        ]
+	}
+]

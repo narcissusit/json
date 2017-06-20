@@ -1,0 +1,209 @@
+/* line 1, ../sass/style.sass */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 6, ../sass/style.sass */
+body {
+  min-width: 320px;
+}
+
+/* line 9, ../sass/style.sass */
+header {
+  background-color: #7accc8;
+  padding: 26px 58px;
+}
+
+/* line 13, ../sass/style.sass */
+.wrap::after {
+  content: "";
+  width: 100%;
+  display: block;
+  clear: both;
+}
+
+/* line 19, ../sass/style.sass */
+.mob_menu::after {
+  content: "";
+  background-image: url("../images/sprite.png");
+  width: 36px;
+  height: 34px;
+  display: inline-block;
+  float: right;
+}
+
+/* line 27, ../sass/style.sass */
+.mob_menu:hover {
+  cursor: pointer;
+}
+
+/* line 30, ../sass/style.sass */
+.main_menu {
+  position: fixed;
+  right: 58px;
+  top: -200px;
+  background-color: #7accc8;
+}
+
+/* line 36, ../sass/style.sass */
+.main_menu ul {
+  list-style-type: none;
+}
+
+/* line 39, ../sass/style.sass */
+.main_menu li {
+  padding: 5px;
+}
+
+/* line 42, ../sass/style.sass */
+.main_menu a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 23px;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* line 49, ../sass/style.sass */
+.users {
+  padding: 50px 30px;
+  background-color: #f1f1f1;
+}
+/* line 52, ../sass/style.sass */
+.users .user_block {
+  margin: 13px 0;
+  background-color: #fff;
+  padding: 18px;
+}
+
+/* line 57, ../sass/style.sass */
+.article {
+  padding: 50px 30px;
+}
+
+/* line 60, ../sass/style.sass */
+h2 {
+  color: #0072bc;
+  font-family: "Open Sans", sans-serif;
+  font-size: 23px;
+  font-weight: 1000;
+  margin-bottom: 20px;
+}
+
+/* line 68, ../sass/style.sass */
+ul {
+  list-style-type: none;
+}
+
+/* line 71, ../sass/style.sass */
+.info, .userInfo {
+  display: inline-block;
+}
+/* line 73, ../sass/style.sass */
+.info li, .userInfo li {
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 200;
+  color: #929292;
+}
+
+/* line 80, ../sass/style.sass */
+.info {
+  padding-left: 12px;
+}
+
+/* line 83, ../sass/style.sass */
+img {
+  width: 75px;
+  height: 75px;
+  margin-right: 20px;
+}
+
+/* line 88, ../sass/style.sass */
+.recent {
+  display: inline_block;
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 200;
+  color: #929292;
+}
+
+/* line 97, ../sass/style.sass */
+.arTitle li {
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 200;
+  color: #929292;
+}
+
+/* line 104, ../sass/style.sass */
+.articl {
+  display: inline-block;
+  top: 18px;
+  padding-left: 50px;
+}
+/* line 108, ../sass/style.sass */
+.articl ol {
+  margin-left: 30px;
+}
+
+/* line 111, ../sass/style.sass */
+.art_block {
+  background-color: #f1f1f1;
+  padding: 17px 22px;
+  margin-bottom: 15px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 200;
+}
+/* line 118, ../sass/style.sass */
+.art_block h3 {
+  font-size: 15px;
+  color: #3c92c9;
+}
+/* line 121, ../sass/style.sass */
+.art_block p {
+  font-size: 12px;
+  color: #3c92c9;
+}
+/* line 124, ../sass/style.sass */
+.art_block .artBody {
+  font-size: 14px;
+  color: #8b8b8b;
+  padding: 10px 0;
+}
+
+@media (min-width: 640px) {
+  /* line 130, ../sass/style.sass */
+  .mob_menu {
+    display: none;
+  }
+
+  /* line 132, ../sass/style.sass */
+  .main_menu {
+    position: static;
+    float: right;
+  }
+  /* line 135, ../sass/style.sass */
+  .main_menu li {
+    padding: 0 0 0 22px;
+    display: inline-block;
+  }
+}
+@media (min-width: 960px) {
+  /* line 140, ../sass/style.sass */
+  .information {
+    display: inline-block;
+  }
+  /* line 142, ../sass/style.sass */
+  .information .users {
+    width: 50%;
+    float: left;
+  }
+  /* line 147, ../sass/style.sass */
+  .information .article {
+    float: right;
+    width: 50%;
+  }
+}

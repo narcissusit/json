@@ -1,0 +1,152 @@
+*
+	box-sizing: border-box
+	padding: 0
+	margin: 0
+
+body
+	min-width: 320px
+
+header
+	background-color: #7accc8
+	padding: 26px 58px
+
+.wrap::after
+	content: ''
+	width: 100%
+	display: block
+	clear: both
+
+.mob_menu::after
+	content: ''
+	background-image: url('../images/sprite.png')
+	width: 36px
+	height: 34px
+	display: inline-block
+	float: right
+
+.mob_menu:hover
+	cursor: pointer
+
+.main_menu
+	position: fixed
+	right: 58px
+	top: -200px
+	background-color: #7accc8
+
+.main_menu ul
+	list-style-type: none
+
+.main_menu li
+	padding: 5px
+
+.main_menu a
+	text-decoration: none
+	text-transform: uppercase
+	color: #fff
+	font-size: 23px
+	font-family: 'Open Sans', sans-serif
+
+.users
+	padding: 50px 30px
+	background-color: #f1f1f1
+	.user_block
+		margin: 13px 0
+		background-color: #fff
+		padding: 18px
+
+.article
+	padding: 50px 30px
+
+h2
+	color: #0072bc
+	font:
+		family: 'Open Sans', sans-serif
+		size: 23px
+		weight: 1000
+	margin-bottom: 20px
+
+ul
+	list-style-type: none
+
+.info, .userInfo
+	display: inline-block
+	li
+		font:
+			size: 15px
+			family: 'Open Sans', sans-serif
+			weight: 200
+		color: #929292
+
+.info 
+	padding-left: 12px
+
+img
+	width: 75px
+	height: 75px
+	margin-right: 20px
+
+.recent
+	display: inline_block
+	font:
+		size: 15px
+		family: 'Open Sans', sans-serif
+		weight: 200
+	color: #929292
+
+.arTitle
+	li
+		font:
+			size: 15px
+			family: 'Open Sans', sans-serif
+			weight: 200
+		color: #929292
+
+.articl
+	display: inline-block
+	top: 18px
+	padding-left: 50px
+	ol
+		margin-left: 30px
+
+.art_block
+	background-color: #f1f1f1
+	padding: 17px 22px
+	margin-bottom: 15px
+	font:
+		family: 'Open Sans', sans-serif
+		weight: 200
+	h3
+		font-size: 15px
+		color: #3c92c9
+	p
+		font-size: 12px
+		color: #3c92c9
+	.artBody
+		font-size: 14px
+		color: #8b8b8b
+		padding: 10px 0
+
+@media (min-width: 640px)
+	.mob_menu
+		display: none
+	.main_menu
+		position: static
+		float: right
+		li
+			padding: 0 0 0 22px
+			display: inline-block
+
+@media (min-width: 960px)
+	.information
+		display: inline-block
+		.users
+			width: 50%
+			float: left
+			
+
+		.article
+			float: right
+			width: 50%
+
+
+
